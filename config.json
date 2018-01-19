@@ -1,0 +1,15 @@
+{
+	MSVM : 'C:\\Program Files\\Neuralynx\\MultiSubjectVideoManager\\MultiSubjectVideoManager.exe',
+	videoTargetDrive : '\\\\Some NAS\\,
+	eegTargetDrive : '\\\\Some NAS\\,
+	dateFormat : 'dd_MMM_yy',
+	timeToExit : '06:59',
+	videoWindowSize : [ 450, 450 ],
+	displaySize : [ 1920,  1080],
+	windowDelay : 1000,
+	boxConfig : 'box_configuration.csv',
+	SendNetComCommand : 'C:\\Program Files\\Neuralynx\\SendNetCommand\\SendNetComCommand.exe',
+	channelsPerBox : 10,
+	videoFormat : '.avi',
+	eegFormat : '.ncs'
+}
