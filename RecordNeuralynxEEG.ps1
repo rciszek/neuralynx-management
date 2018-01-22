@@ -61,3 +61,6 @@ for ( $i=0; $i -lt $boxConfiguration.Animal.Length; $i++ )
 		
 }
 
+$output = & $config.SendNetComCommand -StartRecording 
+
+AppendToLog $PSScriptRoot ($currentTaskName  +".log") ("Begin recording with output: " + $output) 
